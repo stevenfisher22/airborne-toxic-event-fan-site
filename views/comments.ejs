@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h1 class="feedback-form-title">Comment</h1>
+                <form class="feedback-form">
+                    <div class="form-group">
+                        <label for="feedback-form-name">Name</label>
+                        <input type="text" class="form-control" id="feedback-form-name" placeholder="Enter your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="feedback-form-name">Title</label>
+                        <input type="text" class="form-control" id="feedback-form-title" placeholder="Title of your comment">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="feedback-form-name">Message</label>
+                        <textarea type="text" placeholder="Enter your message, then hit submit" class="form-control" id="feedback-form-message" rows="6"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default pull-right">Submit</button>
+                </form>
+            </div>
+            <aside class="col-sm-8">
+                <div class="maincontent feedback">
+                    <h2 class="article-title">Comments</h2>
+                    <div class="comments"></div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="/js/comments.js"></script>
+</body>
+</html>

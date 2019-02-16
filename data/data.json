@@ -1,0 +1,33 @@
+{
+    "albums": [{
+        "artist" : "The Airborne Toxic Event",
+        "name" : "The Airborne Toxic Event",
+        "year" : "2008",
+        "summary" : "The first album",
+        "artwork" : "album1.jpg"
+    },{
+        "artist" : "The Airborne Toxic Event",
+        "name" : "All at Once",
+        "year" : "2011",
+        "summary" : "The second album",
+        "artwork" : "album2.jpg"
+    },{
+        "artist" : "The Airborne Toxic Event",
+        "name" : "Such Hot Blood",
+        "year" : "2013",
+        "summary" : "The third album",
+        "artwork" : "album3.jpg"
+    },{
+        "artist" : "The Airborne Toxic Event",
+        "name" : "Dope Machines",
+        "year" : "2015",
+        "summary" : "The fourth album",
+        "artwork" : "album4.jpg"
+    },{
+        "artist" : "The Airborne Toxic Event",
+        "name" : "Songs of God and Whiskey",
+        "year" : "2015",
+        "summary" : "The fifth album",
+        "artwork" : "album5.jpg"
+    }]
+}
